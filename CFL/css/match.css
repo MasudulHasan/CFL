@@ -1,0 +1,63 @@
+body {
+	position: absolute;
+	margin: 30px 30px;
+	padding:30px 30px;
+	width: 100%;
+	height: 800px;
+	background: #CEECF5;
+}
+
+#regBox {
+	position: absolute;
+	width: 500px;
+	padding-bottom: 50px;
+	top: 20%;
+	left: 30%;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: #fff;
+}
+
+#regTitle {
+	padding: 8px;
+	background: linear-gradient(#D8D8D8, #BDBDBD, #D8D8D8);
+	border-radius: 5px;
+}
+
+#regBox table {
+	border: 5px solid black;
+}
+
+.inputBox input, select{
+	width: 180px;
+	border-radius: 5px;
+	margin: 20px 10px;
+	padding: 5px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+#name {
+	margin-top: 50px;
+}
+
+#submit {
+	cursor: pointer;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 20px;
+	border-radius: 10px;
+	background: linear-gradient(#D8D8D8, #BDBDBD, #D8D8D8);
+	padding: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+th, td {
+    padding: 5px;
+}
